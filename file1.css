@@ -120,18 +120,24 @@ nav a:hover{
 }
 
 @media (max-width: 900px){
-  .grid2, .grid3, .grid4{
+  .grid2, .grid3{
     grid-template-columns:1fr;
   }
+  .grid4{
+	  display:none;
+  }
+  
   table td{
 			display:block;
 			width:100%;
 			margin:20px;
   }
+  
   img.flt{
 	  width:100%;
 	  height:auto;
   }
+  
 }
 
 footer{
@@ -353,7 +359,7 @@ box-sizing:border-box;}
 
 ::placeholder{color:gray;}
 
-.recensioni{ width: 525px ;
+.recensioni{ width: 25% ;
  margin-bottom: 20px;
  padding: 10px;}
 
@@ -385,6 +391,10 @@ box-sizing:border-box;}
 	border: 3px solid #ffffff;
 }
 
+.su{
+		margin:20px;
+}
+
 ul{
 	display: flex;
 	align-items: center;
@@ -396,8 +406,13 @@ ul{
 		color:#ffc134;
 }	
 
+.undl{
+		text-align:center;
+		text-decoration:underline;
+}
+
 .undl1{
-		text-align:center
+		text-align:center;
 }
 
 .lato{
@@ -428,7 +443,7 @@ a.ho:hover{
 }
 
 .mx{
-		width:50%; 
+		width:60%; 
 }
 
 .ww{
